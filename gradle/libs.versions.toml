@@ -1,0 +1,114 @@
+[versions]
+activityComposeVersion = "1.7.0"
+agp = "8.5.1"
+androidxJunit = "1.1.5"
+androidxMaterial3 = "1.0.0-beta03"
+coilCompose = "2.2.2"
+coilComposeVersion = "2.1.0"
+composeBomVersion = "2024.1.0"
+coreKtxVersion = "1.12.0"
+espressoCoreVersion = "3.5.1"
+firebaseAnalytics = "22.1.0"
+firebaseBom = "33.2.0"
+firebaseBomVersion = "32.0.0"
+firebaseCore = "21.1.1"
+firebaseFirestore = "25.1.0"
+foundation = "1.6.8"
+foundationVersion = "1.4.0"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.4"
+activityCompose = "1.9.1"
+composeBom = "2024.04.01"
+lifecycleRuntimeKtxVersion = "2.7.1"
+lifecycleViewmodelKtx = "2.8.5"
+material = "1.6.8"
+material3 = "1.2.1"
+material3Version = "1.1.0"
+materialVersion = "1.12.0"
+navigationCompose = "2.7.7"
+firebaseAuthKtx = "23.0.0"
+firebaseDatabaseKtx = "21.0.0"
+firebaseFirestoreKtx = "25.1.0"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.0.0"
+navigationComposeVersion = "2.6.0"
+playServicesAnalytics = "21.0.0"
+playServicesAnalyticsImpl = "18.1.0"
+ui = "1.6.8"
+firebaseDatabase = "21.0.0"
+uiTestJunit4 = "1.6.8"
+uiTestManifest = "1.6.8"
+uiTooling = "1.6.8"
+uiToolingPreview = "1.6.8"
+uiVersion = "1.4.0"
+material3Android = "1.2.1"
+firebaseStorageKtx = "21.0.0"
+
+[libraries]
+androidx-activity-compose-v170 = { module = "androidx.activity:activity-compose", version.ref = "activityComposeVersion" }
+androidx-compose-bom-v202410 = { module = "androidx.compose:compose-bom", version.ref = "composeBomVersion" }
+androidx-compose-material3-material3 = { module = "androidx.compose.material3:material3" }
+androidx-compose-material3-material32 = { module = "androidx.compose.material3:material3" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-ktx-v1120 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+androidx-espresso-core-v351 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+androidx-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "foundation" }
+androidx-foundation-v140 = { module = "androidx.compose.foundation:foundation", version.ref = "foundationVersion" }
+androidx-junit-v115 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+androidx-lifecycle-runtime-ktx-v271 = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtxVersion" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-material = { module = "androidx.compose.material:material", version.ref = "material" }
+androidx-material3-v100beta03 = { module = "androidx.compose.material3:material3", version.ref = "androidxMaterial3" }
+androidx-material3-v110 = { module = "androidx.compose.material3:material3", version.ref = "material3Version" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+androidx-navigation-compose-v260 = { module = "androidx.navigation:navigation-compose", version.ref = "navigationComposeVersion" }
+androidx-ui-v140 = { module = "androidx.compose.ui:ui", version.ref = "uiVersion" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+coil-compose-v210 = { module = "io.coil-kt:coil-compose", version.ref = "coilComposeVersion" }
+com-google-firebase-firebase-firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestore" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebaseAnalytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-bom-v3200 = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBomVersion" }
+firebase-core = { module = "com.google.firebase:firebase-core", version.ref = "firebaseCore" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
+google-firebase-auth = { module = "com.google.firebase:firebase-auth" }
+google-firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
+firebase-database-ktx = { group = "com.google.firebase", name = "firebase-database-ktx", version.ref = "firebaseDatabaseKtx" }
+firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+material = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+play-services-analytics = { module = "com.google.android.gms:play-services-analytics", version.ref = "playServicesAnalytics" }
+play-services-analytics-impl = { group = "com.google.android.gms", name = "play-services-analytics-impl", version.ref = "playServicesAnalyticsImpl" }
+ui = { module = "androidx.compose.ui:ui", version.ref = "ui" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "uiTestJunit4" }
+ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "uiTestManifest" }
+ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "uiTooling" }
+ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "uiToolingPreview" }
+androidx-material3-android = { group = "androidx.compose.material3", name = "material3-android", version.ref = "material3Android" }
+firebase-storage-ktx = { group = "com.google.firebase", name = "firebase-storage-ktx", version.ref = "firebaseStorageKtx" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+

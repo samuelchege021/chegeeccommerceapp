@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "618296153765",
+    "project_id": "cheges-936ff",
+    "storage_bucket": "cheges-936ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618296153765:android:9c1338d59f113f7eeadf4c",
+        "android_client_info": {
+          "package_name": "com.samuel.cheges"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5nOZ_F88EhIIgUZ171tR7mIqgnAVkD7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
